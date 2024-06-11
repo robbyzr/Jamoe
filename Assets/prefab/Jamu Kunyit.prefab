@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5358397327290020592}
   - component: {fileID: -1370475841979391077}
   - component: {fileID: -2298917122233043668}
-  - component: {fileID: -5899927693072564074}
+  - component: {fileID: 2522232894064848602}
   m_Layer: 0
   m_Name: Jamu Kunyit
   m_TagString: Gelas
@@ -147,7 +147,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84a7ce6127177b249bcd9048d3a65dd1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &-5899927693072564074
+  isDragging: 0
+--- !u!114 &2522232894064848602
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -156,7 +157,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 5358397327290020594}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 74011a2e05bf7b841aacb0fdd11c66fb, type: 3}
+  m_Script: {fileID: 11500000, guid: 67dc0669b1db9344692346aec2265313, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   itemName: Jamu Kunyit
+  bumbu: {fileID: 0}
+  parent: {fileID: 0}
+  slots: []

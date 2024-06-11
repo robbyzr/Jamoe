@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1050689977493063374}
   - component: {fileID: 5438406763521560175}
   - component: {fileID: 7993257212702840164}
-  - component: {fileID: 5202672661716303986}
+  - component: {fileID: 1938850544726339637}
   m_Layer: 0
   m_Name: Jamu Temulawak
   m_TagString: Gelas
@@ -147,7 +147,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84a7ce6127177b249bcd9048d3a65dd1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &5202672661716303986
+  isDragging: 0
+--- !u!114 &1938850544726339637
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -156,7 +157,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1050689977493063360}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 74011a2e05bf7b841aacb0fdd11c66fb, type: 3}
+  m_Script: {fileID: 11500000, guid: 67dc0669b1db9344692346aec2265313, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   itemName: Jamu Temulawak
+  bumbu: {fileID: 0}
+  parent: {fileID: 0}
+  slots: []

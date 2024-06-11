@@ -11,7 +11,7 @@ public class CraftingManager : MonoBehaviour
     public string[] recipes;
     public GameObject[] recipeResult;
     private GameObject cloneRecipeResult;
-
+    
 
     public Slot resultSlot;
     public GameObject wrongRecipe;
@@ -38,7 +38,7 @@ public class CraftingManager : MonoBehaviour
         {
             if (slot != null)
             {
-                currentRecipeString += slot.storedItemName + ", ";
+                currentRecipeString += slot.storedItemName;
             }
         }
        
@@ -71,7 +71,7 @@ public class CraftingManager : MonoBehaviour
                 // Menetapkan komponen Item dari wrongRecipe ke storedItem dalam resultSlot
                 Item cloneWrongRecipeItem = cloneWrongRecipe.GetComponent<Item>();
                 resultSlot.storedItem = cloneWrongRecipeItem;
-
+                resultSlot.storedItemName = resultSlot.storedItem.itemName;
                 // Menonaktifkan parent dan mengaktifkan resultSlot
                 parent.gameObject.SetActive(false);
                 resultSlot.gameObject.SetActive(true);
@@ -87,7 +87,7 @@ public class CraftingManager : MonoBehaviour
         Item itemComponent = recipeResult[i].GetComponent<Item>();
         // Menetapkan storedItem ke resultSlot
         resultSlot.storedItem = itemComponent;
-
+        resultSlot.storedItemName = resultSlot.storedItem.itemName;
         parent.gameObject.SetActive(false);
         resultSlot.gameObject.SetActive(true);
         

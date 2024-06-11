@@ -9,7 +9,6 @@ ScriptsOnlyBuild:
     - Item
     - LevelMenu
     - Mainmenu
-    - OrderItem
     - SceneSelector
     - Slot
     - SoundManager
@@ -132,9 +131,12 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: GameManager
     methodName: Resume
-  - assembly: Assembly-CSharp
-    fullTypeName: SceneSelector
-    methodName: PanelPetunjuk1
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
   - assembly: Assembly-CSharp
     fullTypeName: SoundManager
     methodName: ToggleSFX
@@ -153,9 +155,18 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: GameManager
     methodName: Paused
-  - assembly: Assembly-CSharp
-    fullTypeName: SceneSelector
-    methodName: PanelPetunjuk2
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
   - assembly: Assembly-CSharp
     fullTypeName: SceneSelector
     methodName: MainMenu
@@ -180,12 +191,42 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: GameManager
     methodName: Resume
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: GameManager
+    methodName: Resume
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: GameManager
+    methodName: Resume
   - assembly: Assembly-CSharp
     fullTypeName: SceneSelector
     methodName: MainMenu
   - assembly: Assembly-CSharp
     fullTypeName: SoundManager
     methodName: ToggleBgmMainmenu
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
@@ -201,12 +242,6 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: SoundManager
     methodName: ToggleSFX
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: Assembly-CSharp
-    fullTypeName: GameManager
-    methodName: Resume
   - assembly: Assembly-CSharp
     fullTypeName: SceneSelector
     methodName: Level3
@@ -225,18 +260,30 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: GameManager
     methodName: Resume
-  - assembly: Assembly-CSharp
-    fullTypeName: SceneSelector
-    methodName: PanelPetunjuk1
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
   - assembly: Assembly-CSharp
     fullTypeName: GameManager
     methodName: Paused
-  - assembly: Assembly-CSharp
-    fullTypeName: SceneSelector
-    methodName: MainMenu
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
@@ -246,6 +293,27 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: SceneSelector
     methodName: MainMenu
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: GameManager
+    methodName: Resume
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneSelector
+    methodName: MainMenu
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
   - assembly: Assembly-CSharp
     fullTypeName: SoundManager
     methodName: ToggleBgmMainmenu
@@ -276,6 +344,18 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: GameManager
     methodName: Paused
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: GameManager
+    methodName: Resume
   - assembly: Assembly-CSharp
     fullTypeName: SceneSelector
     methodName: MainMenu
@@ -337,8 +417,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 16630}
     - Class: 114
       Script: {instanceID: 16778}
-    - Class: 114
-      Script: {instanceID: 16864}
     - Class: 114
       Script: {instanceID: 16870}
     - Class: 114
@@ -423,8 +501,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 16778}
     - Class: 114
-      Script: {instanceID: 16864}
-    - Class: 114
       Script: {instanceID: 16870}
     - Class: 114
       Script: {instanceID: 16882}
@@ -507,8 +583,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 16630}
     - Class: 114
       Script: {instanceID: 16778}
-    - Class: 114
-      Script: {instanceID: 16864}
     - Class: 114
       Script: {instanceID: 16870}
     - Class: 114
@@ -623,7 +697,7 @@ ScriptsOnlyBuild:
     className: LevelMenu
   - hash:
       serializedVersion: 2
-      Hash: a35deec8e35819871ed51db234db595e
+      Hash: 22384d00167d5231a9196696d73c2f30
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Slot
@@ -743,7 +817,7 @@ ScriptsOnlyBuild:
     className: PositionAsUV1
   - hash:
       serializedVersion: 2
-      Hash: 656fd821870dc62851cd591401f401ca
+      Hash: 9152a03003979e157616280caedc8b31
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Item
@@ -875,7 +949,7 @@ ScriptsOnlyBuild:
     className: AspectRatioFitter
   - hash:
       serializedVersion: 2
-      Hash: a50c41a800cb0136242209238947ada6
+      Hash: e7840365739796b646e8f3460f81d63d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: CraftingManager

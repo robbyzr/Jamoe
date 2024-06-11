@@ -69,7 +69,7 @@ public class Customer : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other)
     {
         // Pastikan objek yang bersentuhan adalah pesanan
-        OrderItem orderItem = other.GetComponent<OrderItem>();
+        Item orderItem = other.GetComponent<Item>();
         if (orderItem != null)
         {
             // Periksa apakah nama pesanan ada dalam daftar item-menu yang tersedia

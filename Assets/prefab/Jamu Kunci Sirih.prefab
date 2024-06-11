@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7632543789941217437}
   - component: {fileID: 1415639147075862820}
   - component: {fileID: 1933563250032417689}
-  - component: {fileID: 1672153907201255201}
+  - component: {fileID: 5376752837160517599}
   m_Layer: 0
   m_Name: Jamu Kunci Sirih
   m_TagString: Gelas
@@ -148,7 +148,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDragging: 0
---- !u!114 &1672153907201255201
+--- !u!114 &5376752837160517599
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -157,7 +157,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1415639147075862818}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 74011a2e05bf7b841aacb0fdd11c66fb, type: 3}
+  m_Script: {fileID: 11500000, guid: 67dc0669b1db9344692346aec2265313, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   itemName: Jamu Kunci Sirih
+  bumbu: {fileID: 0}
+  parent: {fileID: 0}
+  slots: []
